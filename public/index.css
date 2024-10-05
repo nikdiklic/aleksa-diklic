@@ -67,6 +67,9 @@ main {
       width: 20%;
       height: 10%;
     }
+    a {
+      color: #666;
+    }
   }
 }
 .row {
