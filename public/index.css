@@ -31,14 +31,19 @@ nav {
   font-family: sans-serif;
   display: flex;
   align-self: stretch;
-  justify-content: end;
-  padding-right: 4rem;
+  justify-content: space-between;
+  padding: 0 2rem;
+  img {
+    height: 3rem;
+    margin: 1rem 0;
+  }
   ul {
     font-size: 1.5rem;
 
     display: flex;
     justify-content: flex-end;
     gap: 2rem;
+
     li {
       a {
         color: white;
