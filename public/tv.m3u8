@@ -1,10 +1,12 @@
 #EXTM3U
 
 #EXTINF:-1 tvg-id="n1srp" tvg-name="N1 Serbia" tvg-logo="https://upload.wikimedia.org/wikipedia/sr/8/8e/N1_TV_logo.png" group-title="Serbian Channels",N1 Serbia
-https://best-str.umn.cdn.united.cloud/stream?stream=sp1400&sp=n1info&channel=n1srp&u=n1info&p=n1Sh4redSecre7iNf0&player=m3u8
+https://best-str.umn.cdn.united.cloud/stream?stream=sp1400&sp=n1info&channel=n1srp&u=n1info&p=n1Sh4redSecre7iNf0&session=9f671ccb-c80a-4248-9a42-358252cfc465
+
 
 #EXTINF:-1 tvg-id="novashd" tvg-name="Nova S HD" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/c/cd/Novas2020.jpg" group-title="Serbian Channels",Nova S HD
-https://best-str.umn.cdn.united.cloud/stream?stream=hp7000&sp=novas&channel=novashd&u=novas&p=n0v43!23t001&player=m3u8
+https://best-str.umn.cdn.united.cloud/stream?stream=hp7000&sp=novas&channel=novashd&u=novas&p=n0v43!23t001&session=9f671ccb-c80a-4248-9a42-358252cfc465
+
 
 #EXTINF:-1 tvg-id="ktvuzivo" tvg-name="KTV Uživo" tvg-logo="https://www.ktv.rs/wp-content/uploads/2024/07/ktv-kocka.jpg" group-title="Serbian Channels",KTV Uživo
 https://ktvuzivo.rs/hls/0/stream.m3u8?cachebust=4ec7eae4
