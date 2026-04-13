@@ -12,7 +12,7 @@ https://ktvuzivo.rs/memfs/aa5f6ceb-b0e8-46a1-becf-348613489702.m3u8
 #EXTINF:-1 tvg-id="belami.rs" tvg-name="Belami TV" tvg-logo="https://tvprofil.com/img/kanali-logo/tv-belle-amie-logo.png" group-title="Serbian Channels",Belami TV
 http://92.60.238.10:1935/live/belleamie/playlist.m3u8
 
-#EXTINF:-1 tvg-id="tvas.rs" tvg-name="TV AS" tvg-logo="https://rtvas.rs/wp-content/themes/yootheme/cache/3b/logo-rtvas-3b7105b2.webp" group-title="Serbian Channels",TV AS
+#EXTINF:-1 tvg-id="tvas.rs" tvg-name="TV AS" tvg-logo="https://rtvas.rs/uploads/logo/logo_69c0dd86afc6c1-59630280.png" group-title="Serbian Channels",TV AS
 https://lb.dstvmultimedia.com/lb0/TVAS/index.m3u8
 
 #EXTINF:-1 tvg-id="rtv1.rs" tvg-name="RTV1" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/5/54/RTV_1_2012.png" group-title="Serbian Channels",RTV1
