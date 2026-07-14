@@ -17,14 +17,15 @@ body {
   justify-content: stretch;
   align-items: stretch;
   flex-direction: column;
-  background: linear-gradient(#000 0%, transparent 16rem, transparent 100%);
+  background-color: #111;
 }
 
 html {
-  background: url(images/giphy.webp) top left no-repeat;
-  background-size: 100%;
+  /* background: url(images/giphy.webp) top left no-repeat; */
+  /* background-size: 100%;
   background-attachment: fixed;
-  background-color: black;
+  background-color: black; */
+  background-color: #111;
 }
 
 nav {
@@ -33,6 +34,9 @@ nav {
   align-self: stretch;
   justify-content: space-between;
   padding: 0 2rem;
+  background-color: #222;
+  margin:0.4rem;
+  border-radius: 1rem;
 }
 
 nav img {
@@ -41,7 +45,7 @@ nav img {
 }
 
 nav ul {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   display: flex;
   justify-content: flex-end;
   gap: 2rem;
@@ -59,12 +63,14 @@ nav ul li a {
 }
 
 main {
-  background-color: #d9d9d9;
+  color: white;
+  /* background-color: #222; */
   padding: 0 4rem 4rem;
-  margin: auto;
+  margin: 0 4rem;
+  border-radius: 1rem;
   display: flex;
   flex-direction: column;
-  max-width: 60rem;
+  /* max-width: 60rem; */
 }
 
 main h1 {
@@ -72,10 +78,9 @@ main h1 {
   font-size: 2rem;
 }
 
-main section #photo {
-  float: left;
-  width: 20%;
-  height: 10%;
+#photo{
+  max-height: 460px;
+  object-fit: cover;
 }
 main section a {
   color: #666;
@@ -125,7 +130,7 @@ p {
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   nav {
-    padding: 0 0.4rem;
+    padding: 0 1rem;
   }
 
   .column,
