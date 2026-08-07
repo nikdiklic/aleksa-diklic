@@ -66,6 +66,7 @@ main {
   div {
     margin-top: 1em;
     align-self: center;
+    align-content: center;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
