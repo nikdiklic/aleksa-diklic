@@ -1,0 +1,8 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "start": "firebase emulators:start --only hosting",
+    "deploy": "firebase deploy --only hosting"
+  }
+}
