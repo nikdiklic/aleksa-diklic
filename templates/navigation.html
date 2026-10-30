@@ -4,7 +4,14 @@
   </a>
   <ul class="mobile">
     <li>
-      <p id="hamburger">☰</p>
+      <button
+        id="hamburger"
+        class="menu-toggle"
+        type="button"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+        aria-label="Open navigation"
+      >☰</button>
     </li>
   </ul>
   <ul class="desktop">
@@ -22,7 +29,7 @@
   aria-label="Close navigation"
   hidden
 ></button>
-<menu class="mobile" style="display: none">
+<menu id="mobile-menu" class="mobile" style="display: none">
   <ul>
     <li><a href="/">Home</a></li>
     <li><a href="/3d-models">3D Models</a></li>

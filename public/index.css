@@ -94,7 +94,7 @@ main {
   }
 }
 
-#about {
+.about {
   max-width: 40em;
 }
 
@@ -235,7 +235,17 @@ h3 {
     }
   }
 
-  #hamburger {
+  .menu-toggle {
+    padding: 0;
+    border: 0;
+    background: transparent;
+    color: white;
+    font: inherit;
     cursor: pointer;
+  }
+
+  .menu-toggle:focus-visible {
+    outline: 2px solid white;
+    outline-offset: 4px;
   }
 }

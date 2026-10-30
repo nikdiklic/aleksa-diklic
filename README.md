@@ -9,18 +9,18 @@ This is a static HTML site hosted with Firebase Hosting. The site files are in `
 
 ## Build
 
-After changing the shared navigation, run this from the repository root:
+Run this from the repository root to synchronize the shared navigation and check the pages:
 
 ```sh
 npm run build
 ```
 
-The build has no npm dependencies and keeps the navigation rendered in each HTML page for static hosting.
+The build has no npm dependencies and keeps the navigation rendered in each HTML page for static hosting. It checks navigation markers, Firebase initialization, duplicate IDs, and local image links.
 
 ## Preview Locally
 
 ```sh
-firebase emulators:start --only hosting
+npm start
 ```
 
 Open <http://localhost:5002>.
@@ -28,6 +28,5 @@ Open <http://localhost:5002>.
 ## Deploy
 
 ```sh
-npm run build
-firebase deploy --only hosting
+npm run deploy
 ```

@@ -27,41 +27,48 @@
 
   <body>
     <!-- shared-navigation:start -->
-<nav>
-  <a href="/">
-    <img src="Signum.svg" />
-  </a>
-  <ul class="mobile">
-    <li>
-      <p id="hamburger">☰</p>
-    </li>
-  </ul>
-  <ul class="desktop">
-    <li><a href="/">Home</a></li>
-    <li><a href="/3d-models">3D Models</a></li>
-    <li><a href="/illustrations">Illustrations</a></li>
-    <li><a href="/traditional">Traditional</a></li>
-    <li><a href="/tattoo">Tattoo</a></li>
-    <li><a href="/contact">Contact</a></li>
-  </ul>
-</nav>
-<button
-  class="menu-backdrop"
-  type="button"
-  aria-label="Close navigation"
-  hidden
-></button>
-<menu class="mobile" style="display: none">
-  <ul>
-    <li><a href="/">Home</a></li>
-    <li><a href="/3d-models">3D Models</a></li>
-    <li><a href="/illustrations">Illustrations</a></li>
-    <li><a href="/traditional">Traditional</a></li>
-    <li><a href="/tattoo">Tattoo</a></li>
-    <li><a href="/contact">Contact</a></li>
-  </ul>
-</menu>
-<!-- shared-navigation:end -->
+    <nav>
+      <a href="/">
+        <img src="Signum.svg" />
+      </a>
+      <ul class="mobile">
+        <li>
+          <button
+            id="hamburger"
+            class="menu-toggle"
+            type="button"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+            aria-label="Open navigation"
+          >☰</button>
+        </li>
+      </ul>
+      <ul class="desktop">
+        <li><a href="/">Home</a></li>
+        <li><a href="/3d-models">3D Models</a></li>
+        <li><a href="/illustrations">Illustrations</a></li>
+        <li><a href="/traditional">Traditional</a></li>
+        <li><a href="/tattoo">Tattoo</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>
+    </nav>
+    <button
+      class="menu-backdrop"
+      type="button"
+      aria-label="Close navigation"
+      hidden
+    ></button>
+    <menu id="mobile-menu" class="mobile" style="display: none">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/3d-models">3D Models</a></li>
+        <li><a href="/illustrations">Illustrations</a></li>
+        <li><a href="/traditional">Traditional</a></li>
+        <li><a href="/tattoo">Tattoo</a></li>
+        <li><a href="/contact">Contact</a></li>
+      </ul>
+    </menu>
+    <!-- shared-navigation:end -->
     <main>
       <h1>Illustrations</h1>
       <small
